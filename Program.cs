@@ -14,3 +14,6 @@ foreach (var index in array )
     {                    
         newarray[i] = index;
         i++;
+        Console.WriteLine(index);
+    }
+}
