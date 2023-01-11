@@ -6,15 +6,3 @@ Console.WriteLine("Введите массив строк через запят�
 string[] array;
 string stroka = Console.ReadLine();
 array = stroka.Split(',');
-var newarray = new string[array.Length];
-var i = 0;
-foreach (var index in array )
-{
-    if (index.Length <= 3)
-    {                    
-        newarray[i] = index;
-        i++;
-        Console.WriteLine(index);
-    }
-}
-            
